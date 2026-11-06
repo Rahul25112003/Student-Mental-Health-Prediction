@@ -2,7 +2,7 @@
 
 /* ============ Config ============ */
 // Change this if your FastAPI server runs elsewhere.
-const API_BASE_URL = "http://127.0.0.1:8000";                 //========This is the link of backend========//
+const API_BASE_URL = "https://student-mental-health-prediction-v18f.onrender.com";                 //========This is the link of backend========//
 const PREDICT_URL = `${API_BASE_URL}/predict`;
 const REQUEST_TIMEOUT_MS = 15000;
 const MAX_SCORE = 10; // gauge scale
